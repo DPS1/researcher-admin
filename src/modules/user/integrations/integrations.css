@@ -1,0 +1,18 @@
+.fileContent{padding: 10px 20px 0 20px; text-align: center;}
+.fileContent i{font-size: 50px;}
+.ui.card{ cursor: pointer}
+.ui.card>.content>.header:not(.ui), .ui.cards>.card>.content>.header:not(.ui){}
+.ui.card .meta, .ui.cards>.card .meta{
+    min-height: 40px;
+}
+
+.messagesContainer{
+    padding: 20px; background: #ebe5e5;
+    border: 1px solid #d0c9c9;
+}
+
+.messagesContainer .ui.comments .comment{
+    background: #fff;
+    padding: 20px 20px 10px 20px;
+    border-radius: 0 50px;
+}

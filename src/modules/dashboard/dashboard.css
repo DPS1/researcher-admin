@@ -1,0 +1,8 @@
+.dashBoard{
+    position: relative;
+    display: flex;
+    padding: 0; margin: 0;
+}
+.dashBoard > div{ margin: 0;  min-height: calc(100vh - 40px) !important;}
+.dashBoard > div:nth-child(1){ width: 15rem; }
+.dashBoard > div:nth-child(2){ width: calc(100% - 15rem); overflow: auto; padding: 20px 40px 40px 40px; max-height: calc(100vh - 40px)}
